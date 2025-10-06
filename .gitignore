@@ -1,0 +1,43 @@
+# Large binary files
+*.dll
+*.pyd
+*.tflite
+*.so
+
+# Audio/Video files
+*.wav
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.bin
+*.model
+*.weights
+
+# Temporary files
+*.tmp
+*.temp
