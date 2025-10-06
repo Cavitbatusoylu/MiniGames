@@ -1,43 +1,75 @@
-# Large binary files
-*.dll
-*.pyd
-*.tflite
-*.so
-
-# Audio/Video files
-*.wav
-*.mp4
-*.avi
-*.mov
-*.mkv
-
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-
-# Virtual environments
+# Virtual Environment
+.venv/
 venv/
 env/
-ENV/
 
-# IDE files
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
-# Large model files
-*.bin
-*.model
-*.weights
+# Large files that should use Git LFS
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.ogg
+*.aac
+*.flac
+*.wma
+*.m4a
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+*.dll
+*.exe
+*.pyd
+*.whl
+*.lib
+*.a
 
-# Temporary files
-*.tmp
-*.temp
+# MediaPipe model files
+*.task
+*.tflite
+
+# Training data
+Sample Training Data/
